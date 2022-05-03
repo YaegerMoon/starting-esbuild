@@ -17,14 +17,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "root-workspace-0b6124",\
+        "name": "starting-esbuild",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["root-workspace-0b6124", ["workspace:."]]\
+      ["starting-esbuild", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -258,11 +258,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["root-workspace-0b6124", [\
+      ["starting-esbuild", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["root-workspace-0b6124", "workspace:."],\
+            ["starting-esbuild", "workspace:."],\
             ["@types/node", "npm:17.0.31"],\
             ["esbuild", "npm:0.14.38"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"]\

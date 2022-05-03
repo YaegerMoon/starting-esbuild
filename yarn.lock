@@ -223,9 +223,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"root-workspace-0b6124@workspace:.":
+"starting-esbuild@workspace:.":
   version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
+  resolution: "starting-esbuild@workspace:."
   dependencies:
     "@types/node": ^17.0.31
     esbuild: ^0.14.38
